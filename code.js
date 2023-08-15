@@ -52,7 +52,7 @@ let products = [
       id : 7,
       image: "https://i.postimg.cc/fLLx1Vbm/Prod-7.jpg" ,
       size: 3,
-      desc: "Rejuvenating Eye Cream.",
+      desc: "Moisture Eye Cream.",
       price: "R300",
       button:"Buy now"
     },
@@ -80,4 +80,21 @@ products.forEach((product) => {
           </div>
       </div>
   </div>`
+});
+
+
+
+
+
+
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+      items:3,
+//      autoplay:false,
+      margin:30,
+      loop:true,
+      dots:true
+//      nav:true,
+//      navText:["<i class='fas fa-long-arrow-alt-left'></i>","<i class='fas fa-long-arrow-alt-right'></i>" ]
+  });
 });
