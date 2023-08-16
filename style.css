@@ -260,7 +260,7 @@ padding-bottom:5px !important ;
   border-style: solid;
   border-width: 5px;
   border-radius: 50%;
-  border-color: black;
+  border-color: white;
 }
 .bttn {
   width: 90% !important;
@@ -281,13 +281,14 @@ padding-bottom:5px !important ;
 
 .second {
   margin-bottom: 5rem;
-  background-color: #1e1e1e !important;
+  background-color: white!important;
   color: white !important;
 }
 
 form h2 {
   background-color: #1e1e1e !important;
   color: white !important;
+  border: white !important;
 }
 
 form {
@@ -295,6 +296,7 @@ form {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border: white;
 }
 #contact-box {
   margin-top: -0.9rem !important;
@@ -302,7 +304,7 @@ form {
 
 .bot {
   padding-top: 1rem;
-  background-color: #1e1e1e;
+  background-color: pink;
   color: white;
 }
 
@@ -317,7 +319,8 @@ form {
 
 .hijab img {
   width: 18rem;
-  height: 22rem;
+  height: 12rem;
+  border: white;
 }
 .card-text {
   margin-left: 20px;
@@ -346,7 +349,7 @@ form {
   align-items: center;
   border-radius: 1000px;
   border-radius: 50% 46% / 38% 40%;
-  height: 220px;
+  height: 290px;
   position: relative;
   top: 70px;
   left: 25%;
@@ -362,9 +365,10 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1e1e1e;
+  background-color: white;
   padding-top: 2rem;
   padding-bottom: 1.4rem;
+  border: white !important;
 }
 
 #contactPage {
@@ -381,7 +385,7 @@ form {
 }
 
 .submitting {
-  background-color: #eb5e28 !important;
+  background-color: #faaa94 !important;
   width: 100% !important;
   margin-top: 2rem !important;
   margin-bottom: 2rem !important;
@@ -513,7 +517,7 @@ form {
   text-decoration: none;
   border-radius: 20px;
   transition: 0.3s ease;
-  background-color: #eb5e28;
+  background-color: #faaa94;
   color: white;
 }
 .about-content .read-more:hover {
@@ -640,7 +644,10 @@ form {
 
 
 img{
-  height: 350px;
+  height: 50px;
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 
@@ -914,3 +921,17 @@ h3 {
   color: black;
 }
 /* end of footer */
+
+/* about */
+strong{
+  color: black;
+  font-family: 'Caveat', cursive;
+font-family: 'Poppins', sans-serif;
+}
+
+span{
+  color:pink ;
+  font-family: 'Caveat', cursive;
+font-family: 'Poppins', sans-serif;
+}
+/* about end */
